@@ -1,0 +1,9 @@
+export JAVA_CLASSPATH='/usr/lib/hadoop/client-0.20/*:/usr/lib/hadoop/*'
+
+javac -cp /usr/lib/hadoop/*:/usr/lib/hadoop-mapreduce/* WordCount.java -d wordcount_classes -Xlint
+
+jar cvf wordcount.jar -C wordcount_classes/ .
+
+
+hadoop jar wordcount.jar WordCount /user/cloudera/wordcount/input/ \
+                                     /user/cloudera/wordcount/output/

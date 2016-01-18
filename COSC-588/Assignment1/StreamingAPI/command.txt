@@ -1,0 +1,1 @@
+hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.7.0.jar -mapper ./mapper.py -reducer ./reducer.py -file ./mapper.py -file ./reducer.py -input /user/cloudera/streaming/input/file0 -output /user/cloudera/streaming/output
