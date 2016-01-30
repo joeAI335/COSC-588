@@ -1,0 +1,54 @@
+packageJobJar: [./mapper.py, ./reducer.py, /tmp/hadoop-cloudera/hadoop-unjar3724170243833220053/] [] /tmp/streamjob7094399390572252840.jar tmpDir=null
+16/01/27 16:41:19 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+16/01/27 16:41:19 INFO mapred.FileInputFormat: Total input paths to process : 39
+16/01/27 16:41:19 INFO streaming.StreamJob: getLocalDirs(): [/tmp/hadoop-cloudera/mapred/local]
+16/01/27 16:41:19 INFO streaming.StreamJob: Running job: job_201601260734_0037
+16/01/27 16:41:19 INFO streaming.StreamJob: To kill this job, run:
+16/01/27 16:41:19 INFO streaming.StreamJob: UNDEF/bin/hadoop job  -Dmapred.job.tracker=localhost.localdomain:8021 -kill job_201601260734_0037
+16/01/27 16:41:22 INFO streaming.StreamJob: Tracking URL: http://0.0.0.0:50030/jobdetails.jsp?jobid=job_201601260734_0037
+16/01/27 16:41:23 INFO streaming.StreamJob:  map 0%  reduce 0%
+16/01/27 16:41:31 INFO streaming.StreamJob:  map 3%  reduce 0%
+16/01/27 16:41:34 INFO streaming.StreamJob:  map 5%  reduce 0%
+16/01/27 16:41:36 INFO streaming.StreamJob:  map 8%  reduce 0%
+16/01/27 16:41:42 INFO streaming.StreamJob:  map 10%  reduce 0%
+16/01/27 16:41:43 INFO streaming.StreamJob:  map 13%  reduce 0%
+16/01/27 16:41:48 INFO streaming.StreamJob:  map 15%  reduce 0%
+16/01/27 16:41:50 INFO streaming.StreamJob:  map 18%  reduce 0%
+16/01/27 16:41:54 INFO streaming.StreamJob:  map 21%  reduce 0%
+16/01/27 16:41:56 INFO streaming.StreamJob:  map 23%  reduce 0%
+16/01/27 16:42:01 INFO streaming.StreamJob:  map 26%  reduce 0%
+16/01/27 16:42:04 INFO streaming.StreamJob:  map 28%  reduce 0%
+16/01/27 16:42:08 INFO streaming.StreamJob:  map 31%  reduce 0%
+16/01/27 16:42:10 INFO streaming.StreamJob:  map 33%  reduce 0%
+16/01/27 16:42:15 INFO streaming.StreamJob:  map 36%  reduce 0%
+16/01/27 16:42:17 INFO streaming.StreamJob:  map 38%  reduce 0%
+16/01/27 16:42:21 INFO streaming.StreamJob:  map 41%  reduce 0%
+16/01/27 16:42:24 INFO streaming.StreamJob:  map 44%  reduce 0%
+16/01/27 16:42:27 INFO streaming.StreamJob:  map 46%  reduce 0%
+16/01/27 16:42:30 INFO streaming.StreamJob:  map 49%  reduce 0%
+16/01/27 16:42:33 INFO streaming.StreamJob:  map 51%  reduce 0%
+16/01/27 16:42:36 INFO streaming.StreamJob:  map 54%  reduce 0%
+16/01/27 16:42:40 INFO streaming.StreamJob:  map 56%  reduce 0%
+16/01/27 16:42:43 INFO streaming.StreamJob:  map 59%  reduce 0%
+16/01/27 16:42:47 INFO streaming.StreamJob:  map 62%  reduce 0%
+16/01/27 16:42:49 INFO streaming.StreamJob:  map 64%  reduce 0%
+16/01/27 16:42:53 INFO streaming.StreamJob:  map 67%  reduce 0%
+16/01/27 16:42:56 INFO streaming.StreamJob:  map 69%  reduce 0%
+16/01/27 16:42:59 INFO streaming.StreamJob:  map 72%  reduce 0%
+16/01/27 16:43:03 INFO streaming.StreamJob:  map 74%  reduce 0%
+16/01/27 16:43:06 INFO streaming.StreamJob:  map 77%  reduce 0%
+16/01/27 16:43:09 INFO streaming.StreamJob:  map 79%  reduce 0%
+16/01/27 16:43:13 INFO streaming.StreamJob:  map 82%  reduce 0%
+16/01/27 16:43:16 INFO streaming.StreamJob:  map 85%  reduce 0%
+16/01/27 16:43:23 INFO streaming.StreamJob:  map 87%  reduce 0%
+16/01/27 16:43:26 INFO streaming.StreamJob:  map 90%  reduce 29%
+16/01/27 16:43:29 INFO streaming.StreamJob:  map 90%  reduce 30%
+16/01/27 16:43:30 INFO streaming.StreamJob:  map 92%  reduce 30%
+16/01/27 16:43:32 INFO streaming.StreamJob:  map 95%  reduce 31%
+16/01/27 16:43:35 INFO streaming.StreamJob:  map 95%  reduce 32%
+16/01/27 16:43:36 INFO streaming.StreamJob:  map 97%  reduce 32%
+16/01/27 16:43:38 INFO streaming.StreamJob:  map 100%  reduce 32%
+16/01/27 16:43:41 INFO streaming.StreamJob:  map 100%  reduce 69%
+16/01/27 16:43:43 INFO streaming.StreamJob:  map 100%  reduce 100%
+16/01/27 16:43:45 INFO streaming.StreamJob: Job complete: job_201601260734_0037
+16/01/27 16:43:45 INFO streaming.StreamJob: Output: /user/cloudera/streaming/output

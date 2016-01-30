@@ -1,9 +1,26 @@
+#setup environment
 export JAVA_CLASSPATH='/usr/lib/hadoop/client-0.20/*:/usr/lib/hadoop/*'
 
-javac -cp /usr/lib/hadoop/*:/usr/lib/hadoop-mapreduce/* WordCount.java -d wordcount_classes -Xlint
+javac -cp /usr/lib/hadoop/*:/usr/lib/hadoop-mapreduce/* wordcount.java -d count_classes -Xlint
 
-jar cvf wordcount.jar -C wordcount_classes/ .
+jar cvf wordcount.jar -C count_classes/ .
 
 
-hadoop jar wordcount.jar WordCount /user/cloudera/wordcount/input/ \
-                                     /user/cloudera/wordcount/output/
+#make directory
+hadoop fs -mkdir /user/cloudera/wordcount
+#clear history if there are
+hadoop fs -rm -r /user/cloudera/wordcount/output
+hadoop fs -rm -r /user/cloudera/wordcount/input
+
+#run the word count program
+
+hadoop fs -mkdir /user/cloudera/wordcount/input
+
+hadoop fs -put Shakespear/* /user/cloudera/wordcount/input
+
+#run the program
+hadoop jar wordcount.jar wordcount /user/cloudera/wordcount/input/* \
+                                     /user/cloudera/wordcount/output1/
+
+#see the output
+hadoop fs -cat /user/cloudera/wordcount/output1/part* | head

@@ -1,0 +1,47 @@
+#my program
+#without hadoop
+[(u'the', 54610), (u'and', 52930), (u'i', 40058), (u'to', 38975), (u'of', 35932), (u'a', 28753), (u'you', 26854), (u'my', 24723), (u'that', 21963), (u'in', 21724)]
+
+#with hadoop
+[(u'the', 54610), (u'and', 52930), (u'i', 40058), (u'to', 38975), (u'of', 35932), (u'a', 28753), (u'you', 26854), (u'my', 24723), (u'that', 21963), (u'in', 21724)]
+
+
+#class notes program
+#without hadoop
+51484	"and"
+38567	"i"
+28392	"a"
+21075	"in"
+18033	"is"
+15760	"for"
+13352	"his"
+13238	"be"
+11615	"as"
+11612	"but"
+reducer_init
+54473	"the"
+37016	"to"
+35595	"of"
+24687	"my"
+20904	"you"
+20678	"that"
+15685	"with"
+15081	"not"
+13571	"your"
+11632	"this"
+#I have no ideas why reducer happens twice
+
+#with hadoop
+54473	"the"
+51484	"and"
+38567	"i"
+37016	"to"
+35595	"of"
+28392	"a"
+24687	"my"
+21075	"in"
+20904	"you"
+20678	"that"
+
+
+

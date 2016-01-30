@@ -1,1 +1,12 @@
-python mrjob.py file0
+
+#run mrjob to have top 10 frequent words
+#run without hadoop
+python wordcount.py -r local ../Shake*/*
+
+
+#put files into input directory
+hadoop fs -rm /user/cloudera/mrjob/input/hello.txt
+hadoop fs -put Shakespear /user/cloudera/mrjob/input/
+
+#run with hadoop
+python wordcount.py -r hadoop hdfs:///user/cloudera/mrjob/input/Shakespear/*

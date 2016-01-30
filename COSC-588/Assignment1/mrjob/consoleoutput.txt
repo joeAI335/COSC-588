@@ -1,0 +1,594 @@
+
+#run without hadoop
+#Suppose shakespear data set in assignment1 directory
+python wordcount_class_notes.py -r local ../Shake*/*
+
+
+no configs found; falling back on auto-configuration
+no configs found; falling back on auto-configuration
+creating tmp directory /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715
+writing wrapper script to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/setup-wrapper.sh
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00000
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00000 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00000
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00001
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00001 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00001
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00002
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00002 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00002
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00003
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00003 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00003
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00004
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00004 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00004
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00005
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00005 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00005
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00006
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00006 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00006
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00007
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00007 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00007
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00008
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00008 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00008
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00009
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00009 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00009
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00010
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00010 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00010
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00011
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00011 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00011
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00012
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00012 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00012
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00013
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00013 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00013
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00014
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00014 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00014
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00015
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00015 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00015
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00016
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00016 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00016
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00017
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00017 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00017
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00018
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00018 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00018
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00019
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00019 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00019
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00020
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00020 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00020
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00021
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00021 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00021
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00022
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00022 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00022
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00023
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00023 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00023
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00024
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00024 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00024
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00025
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00025 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00025
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00026
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00026 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00026
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00027
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00027 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00027
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00028
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00028 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00028
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00029
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00029 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00029
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00030
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00030 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00030
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00031
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00031 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00031
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00032
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00032 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00032
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00033
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00033 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00033
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00034
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00034 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00034
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00035
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00035 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00035
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00036
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00036 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00036
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00037
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00037 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00037
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00038
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00038 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00038
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00039
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00039 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00039
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/0
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/0/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/0/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/0
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00000
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/1
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/1/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/1/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/1
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00001
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/2
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/2/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/2/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/2
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00002
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/3
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/3/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/3/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/3
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00003
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/4
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/4/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/4/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/4
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00004
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/5
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/5/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/5/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/5
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00005
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/6
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/6/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/6/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/6
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00006
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/7
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/7/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/7/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/7
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00007
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/8
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/8/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/8/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/8
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00008
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/9
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/9/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/9/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/9
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00009
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/10
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/10/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/10/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/10
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00010
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/11
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/11/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/11/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/11
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00011
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/12
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/12/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/12/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/12
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00012
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/13
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/13/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/13/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/13
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00013
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/14
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/14/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/14/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/14
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00014
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/15
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/15/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/15/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/15
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00015
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/16
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/16/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/16/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/16
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00016
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/17
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/17/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/17/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/17
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00017
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/18
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/18/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/18/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/18
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00018
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/19
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/19/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/19/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/19
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00019
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/20
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/20/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/20/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/20
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00020
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/21
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/21/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/21/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/21
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00021
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/22
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/22/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/22/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/22
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00022
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/23
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/23/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/23/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/23
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00023
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/24
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/24/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/24/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/24
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00024
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/25
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/25/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/25/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/25
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00025
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/26
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/26/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/26/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/26
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00026
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/27
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/27/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/27/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/27
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00027
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/28
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/28/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/28/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/28
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00028
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/29
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/29/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/29/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/29
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00029
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/30
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/30/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/30/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/30
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00030
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/31
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/31/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/31/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/31
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00031
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/32
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/32/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/32/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/32
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00032
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/33
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/33/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/33/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/33
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00033
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/34
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/34/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/34/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/34
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00034
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/35
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/35/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/35/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/35
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00035
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/36
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/36/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/36/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/36
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00036
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/37
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/37/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/37/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/37
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00037
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/38
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/38/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/38/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/38
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00038
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/39
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/39/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/39/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/mapper/39
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --mapper /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00039
+Counters from step 1:
+  (none found)
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper-sorted
+> sort /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00000 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00001 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00002 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00003 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00004 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00005 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00006 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00007 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00008 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00009 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00010 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00011 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00012 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00013 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00014 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00015 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00016 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00017 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00018 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00019 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00020 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00021 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00022 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00023 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00024 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00025 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00026 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00027 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00028 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00029 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00030 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00031 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00032 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00033 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00034 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00035 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00036 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00037 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00038 /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-mapper_part-00039
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-reducer_part-00000
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --reducer /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00000 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-reducer_part-00000
+writing to /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-reducer_part-00001
+> sh -ex setup-wrapper.sh /usr/bin/python wordcount_class_notes.py --step-num=0 --reducer /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00001 > /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-reducer_part-00001
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/reducer/0
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/reducer/0/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/reducer/0/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/reducer/0
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --reducer /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00000
+STDERR: + __mrjob_PWD=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/reducer/1
+STDERR: + exec
+STDERR: + /usr/bin/python -c 'import fcntl; fcntl.flock(9, fcntl.LOCK_EX)'
+STDERR: + export PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/reducer/1/mrjob.tar.gz:
+STDERR: + PYTHONPATH=/private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/reducer/1/mrjob.tar.gz:
+STDERR: + exec
+STDERR: + cd /private/var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/job_local_dir/0/reducer/1
+STDERR: + /usr/bin/python wordcount_class_notes.py --step-num=0 --reducer /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/input_part-00001
+Counters from step 1:
+  (none found)
+Moving /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-reducer_part-00000 -> /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/output/part-00000
+Moving /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/step-0-reducer_part-00001 -> /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/output/part-00001
+Streaming final output from /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715/output
+reducer_init
+
+#top 10 words
+52844	"and"
+40820	"i"
+28849	"a"
+21658	"in"
+18925	"is"
+16276	"for"
+15198	"it"
+14009	"be"
+13568	"his"
+12366	"but"
+reducer_init
+54659	"the"
+38006	"to"
+35912	"of"
+26861	"you"
+24737	"my"
+21935	"that"
+17214	"not"
+15815	"with"
+15335	"me"
+13593	"your"
+removing tmp directory /var/folders/3m/90m6q0x93bn3j3mcsvg_cjxm0000gp/T/wordcount_class_notes.lizhengning1.20160128.041017.538715
+
+
+#run with hadoop
+
+python wordcount_class_notes.py -r hadoop hdfs:///user/cloudera/mrjob/input/Shakespear/*
+
+no configs found; falling back on auto-configuration
+no configs found; falling back on auto-configuration
+Looking for hadoop binary in $PATH
+creating tmp directory /tmp/wordcount.cloudera.20160128.040406.693713
+writing wrapper script to /tmp/wordcount.cloudera.20160128.040406.693713/setup-wrapper.sh
+Using Hadoop version 2.0.0
+Copying local files into hdfs:///user/cloudera/tmp/mrjob/wordcount.cloudera.20160128.040406.693713/files/
+Looking for Hadoop streaming jar in /home/hadoop/contrib
+Looking for Hadoop streaming jar in /usr/lib/hadoop-mapreduce
+Found Hadoop streaming jar: /usr/lib/hadoop-mapreduce/hadoop-streaming.jar
+Running step 1 of 1
+HADOOP: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+HADOOP: Total input paths to process : 39
+HADOOP: Running job: job_201601260734_0040
+HADOOP:  map 0% reduce 0%
+HADOOP:  map 3% reduce 0%
+HADOOP:  map 4% reduce 0%
+HADOOP:  map 6% reduce 0%
+HADOOP:  map 7% reduce 0%
+HADOOP:  map 10% reduce 0%
+HADOOP:  map 13% reduce 0%
+HADOOP:  map 15% reduce 0%
+HADOOP:  map 18% reduce 0%
+HADOOP:  map 21% reduce 0%
+HADOOP:  map 23% reduce 0%
+HADOOP:  map 26% reduce 0%
+HADOOP:  map 28% reduce 0%
+HADOOP:  map 31% reduce 0%
+HADOOP:  map 33% reduce 0%
+HADOOP:  map 36% reduce 0%
+HADOOP:  map 38% reduce 0%
+HADOOP:  map 41% reduce 0%
+HADOOP:  map 44% reduce 0%
+HADOOP:  map 46% reduce 0%
+HADOOP:  map 49% reduce 0%
+HADOOP:  map 51% reduce 0%
+HADOOP:  map 54% reduce 0%
+HADOOP:  map 56% reduce 0%
+HADOOP:  map 59% reduce 0%
+HADOOP:  map 62% reduce 0%
+HADOOP:  map 64% reduce 0%
+HADOOP:  map 67% reduce 0%
+HADOOP:  map 69% reduce 0%
+HADOOP:  map 72% reduce 0%
+HADOOP:  map 74% reduce 0%
+HADOOP:  map 77% reduce 0%
+HADOOP:  map 79% reduce 0%
+HADOOP:  map 82% reduce 0%
+HADOOP:  map 85% reduce 0%
+HADOOP:  map 87% reduce 0%
+HADOOP:  map 90% reduce 0%
+HADOOP:  map 90% reduce 30%
+HADOOP:  map 92% reduce 30%
+HADOOP:  map 95% reduce 30%
+HADOOP:  map 95% reduce 32%
+HADOOP:  map 97% reduce 32%
+HADOOP:  map 100% reduce 32%
+HADOOP:  map 100% reduce 67%
+HADOOP:  map 100% reduce 68%
+HADOOP:  map 100% reduce 69%
+HADOOP:  map 100% reduce 100%
+HADOOP: Job complete: job_201601260734_0040
+HADOOP: Counters: 33
+(parsing counters)
+HADOOP:   File System Counters
+HADOOP:     FILE: Number of bytes read=2225209
+HADOOP:     FILE: Number of bytes written=11398792
+HADOOP:     FILE: Number of read operations=0
+HADOOP:     FILE: Number of large read operations=0
+HADOOP:     FILE: Number of write operations=0
+HADOOP:     HDFS: Number of bytes read=10799031
+HADOOP:     HDFS: Number of bytes written=127
+HADOOP:     HDFS: Number of read operations=79
+HADOOP:     HDFS: Number of large read operations=0
+HADOOP:     HDFS: Number of write operations=2
+HADOOP:   Job Counters 
+HADOOP:     Launched map tasks=39
+HADOOP:     Launched reduce tasks=1
+HADOOP:     Data-local map tasks=39
+HADOOP:     Total time spent by all maps in occupied slots (ms)=297016
+HADOOP:     Total time spent by all reduces in occupied slots (ms)=38966
+HADOOP:     Total time spent by all maps waiting after reserving slots (ms)=0
+HADOOP:     Total time spent by all reduces waiting after reserving slots (ms)=0
+HADOOP:   Map-Reduce Framework
+HADOOP:     Map input records=246233
+HADOOP:     Map output records=1781870
+HADOOP:     Map output bytes=16404688
+HADOOP:     Input split bytes=5962
+HADOOP:     Combine input records=0
+HADOOP:     Combine output records=0
+HADOOP:     Reduce input groups=28123
+HADOOP:     Reduce shuffle bytes=2155395
+HADOOP:     Reduce input records=1781870
+HADOOP:     Reduce output records=11
+HADOOP:     Spilled Records=4465065
+HADOOP:     CPU time spent (ms)=51590
+HADOOP:     Physical memory (bytes) snapshot=6402023424
+HADOOP:     Virtual memory (bytes) snapshot=26638053376
+HADOOP:     Total committed heap usage (bytes)=4372721664
+HADOOP:   org.apache.hadoop.mapreduce.lib.input.FileInputFormatCounter
+HADOOP:     BYTES_READ=10793069
+HADOOP: Output directory: hdfs:///user/cloudera/tmp/mrjob/wordcount.cloudera.20160128.040406.693713/output
+Attempting to read counters from history log
+Looking for history log in hdfs:///tmp/hadoop-yarn/staging
+Looking for history log in hdfs:///user/cloudera/tmp/mrjob/wordcount.cloudera.20160128.040406.693713/output/_logs
+Counters from step 1:
+  (none found)
+Streaming final output from hdfs:///user/cloudera/tmp/mrjob/wordcount.cloudera.20160128.040406.693713/output
+reducer_init	
+
+#top 10 words
+54659	"the"
+52844	"and"
+40820	"i"
+38006	"to"
+35912	"of"
+28849	"a"
+26861	"you"
+24737	"my"
+21935	"that"
+21658	"in"
+removing tmp directory /tmp/wordcount.cloudera.20160128.040406.693713
+deleting hdfs:///user/cloudera/tmp/mrjob/wordcount.cloudera.20160128.040406.693713 from HDFS
+

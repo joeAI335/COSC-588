@@ -1,1 +1,25 @@
-hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.7.0.jar -mapper ./mapper.py -reducer ./reducer.py -file ./mapper.py -file ./reducer.py -input /user/cloudera/streaming/input/file0 -output /user/cloudera/streaming/output
+#make directory
+hadoop fs -mkdir /user/cloudera/streaming
+
+#clear history if there are
+hadoop fs -rm -r /user/cloudera/streaming/input
+hadoop fs -rm -r /user/cloudera/streaming/output
+
+
+#make new directory
+hadoop fs -mkdir /user/cloudera/streaming/input
+
+
+#put file into hfs
+hadoop fs -put Shakespear/* /user/cloudera/streaming/input
+
+
+#Run map reduce program
+#if you are using cdh4.7.0
+hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.7.0.jar -mapper ./mapper.py -reducer ./reducer.py -file ./mapper.py -file ./reducer.py -input /user/cloudera/streaming/input/* -output /user/cloudera/streaming/output
+
+#if you are using cdc5.5.0
+hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh5.5.0.jar -mapper ./mapper.py -reducer ./reducer.py -file ./mapper.py -file ./reducer.py -input /user/cloudera/streaming/input/* -output /user/cloudera/streaming/output
+
+#see the output
+hadoop fs -cat /user/cloudera/streaming/output/part* | head
