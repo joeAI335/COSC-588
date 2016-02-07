@@ -1,0 +1,44 @@
+PS02 Answers:
+
+1a. If your cluster has 1 node, how many wall clock seconds and how
+    many clock seconds (total, across all nodes) will be spent in the map
+    phase:
+
+1a.A: 310s, 310s
+
+1b. How much time will be spent in the reduce phase:
+
+1b.A: 100s(wall clock) 100s(clock)
+
+1c. How much time will be spent from the beginning of the job to the end:
+
+1c.A: 410s(wall) 410s(clock)
+
+1d. Explain your answer:
+
+1d.A: Because we only have one mapper which will map the files one by one, so each is 10s, and 31 files total is 310 in mapping. Also, because we only have one file after mapping to reducer, and reduce only happens after mapping, so the time for reducer is 100s.
+
+
+2: If your cluster has 10 nodes, how many wall clock seconds and how
+   many clock seconds will be spent from the beginning to the end?
+
+2.A: 140s = (10s*3 + 10s)(map) + 100s(reduce), wall clock, 
+     410s = (10s*10 * 3 + 10s)(map) + 100s(reduce), clock
+
+3: If your cluster has 100 nodes, how many wall clock seconds and how
+   many clock seconds will be spent from the beginning to the end?
+
+3.A: Although we have 100 nodes, we can only use 31 nodes to map. 
+     wall clock: 110s = 10s(map) + 100s(reduce)
+     clock: 410s = (10s*31) + 100s
+
+4: If your cluster has 1000 nodes, how many wall clock seconds and how
+   many clock seconds will be spent from the beginning to the end?
+
+4.A: Same as 100 nodes. 
+     wall clock: 110s
+     clock: 410s
+
+Extra credit:
+
+Because we only have log files of Jan 2013 not Feb 2013 so there should not be enough records for 2013-02-01.
