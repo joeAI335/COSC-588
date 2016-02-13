@@ -1,0 +1,105 @@
+# ANLY502
+# Please provide your answers to the questions below:
+
+# Question #1:
+1a: 
+1b: (r3.8xlarge, $2.66, 340.48)
+1c: (g2.2xlarge, $0.1249, $63.9488), (g2.8xlarge, $0.5742, $73.4976)
+
+# Question 2:
+2a: 2016-02-11 T 7:53:55 PM
+2b: 2016-02-12T00:59:17,213082830+0000
+2c: 00:59:42 up 4 min,  1 user,  load average: 0.02, 0.08, 0.05
+2d: 
+2e: 
+<put the multi-line output of "df -h" here>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda1      7.8G  1.2G  6.6G  15% /
+devtmpfs        489M   56K  489M   1% /dev
+tmpfs           498M     0  498M   0% /dev/shm
+
+
+2f: 1.7.0_95
+2g: us-east-1b, us-east-1c, us-east-1d, us-east-1e
+2g: i-e3255e63
+2i:
+<put the multi-line traceroute here>
+traceroute to www.qwest.net (204.147.80.94), 30 hops max, 60 byte packets
+ 1  216.182.224.248 (216.182.224.248)  2.184 ms  2.216 ms  2.303 ms
+ 2  100.64.14.143 (100.64.14.143)  1.279 ms 100.64.14.145 (100.64.14.145)  3.577 ms 100.64.14.157 (100.64.14.157)  1.625 ms
+ 3  100.64.11.190 (100.64.11.190)  1.655 ms 100.64.12.252 (100.64.12.252)  1.255 ms 100.64.9.28 (100.64.9.28)  1.502 ms
+ 4  100.65.1.32 (100.65.1.32)  22.223 ms 100.65.0.16 (100.65.0.16)  3.428 ms 100.65.0.144 (100.65.0.144)  17.578 ms
+ 5  100.66.0.26 (100.66.0.26)  35.425 ms 100.66.0.148 (100.66.0.148)  21.823 ms 100.66.0.38 (100.66.0.38)  16.786 ms
+ 6  100.66.2.0 (100.66.2.0)  15.904 ms 100.66.3.194 (100.66.3.194)  14.865 ms 100.66.3.160 (100.66.3.160)  15.847 ms
+ 7  100.66.7.39 (100.66.7.39)  13.525 ms 100.66.6.199 (100.66.6.199)  16.517 ms 100.66.6.107 (100.66.6.107)  73.895 ms
+ 8  100.66.4.151 (100.66.4.151)  485.373 ms 100.66.4.83 (100.66.4.83)  197.003 ms 100.66.4.173 (100.66.4.173)  137.004 ms
+ 9  100.65.9.33 (100.65.9.33)  0.591 ms 100.65.8.97 (100.65.8.97)  0.690 ms 100.65.8.161 (100.65.8.161)  0.489 ms
+10  205.251.245.120 (205.251.245.120)  1.562 ms 205.251.244.234 (205.251.244.234)  1.585 ms 205.251.245.253 (205.251.245.253)  1.495 ms
+11  54.239.111.96 (54.239.111.96)  35.237 ms 54.239.109.250 (54.239.109.250)  18.146 ms 54.239.109.182 (54.239.109.182)  12.602 ms
+12  54.239.109.221 (54.239.109.221)  6.726 ms 54.239.109.153 (54.239.109.153)  1.602 ms 54.239.109.83 (54.239.109.83)  1.585 ms
+13  dca2-edge-01.inet.qwest.net (65.120.78.81)  1.406 ms dca2-edge-02.inet.qwest.net (65.126.19.89)  1.875 ms  1.867 ms
+14  min-core-01.inet.qwest.net (67.14.21.110)  31.984 ms  31.820 ms  31.918 ms
+15  min-svcs-02.inet.qwest.net (207.225.159.211)  31.995 ms  31.913 ms  31.834 ms
+16  www.qwest.net (204.147.80.94)  31.738 ms  31.747 ms  32.144 ms
+
+
+# Question 3:
+3a: 54.86.30.237, 54.88.177.43, 54.175.153.124
+3b: 172.31.24.75, 172.31.25.15, 172.31.25.16
+3c:
+<put the multi-line output here>
+Configured Capacity: 158801608704 (147.90 GB)
+Present Capacity: 158433082944 (147.55 GB)
+DFS Remaining: 157924655104 (147.08 GB)
+DFS Used: 508427840 (484.87 MB)
+DFS Used%: 0.32%
+Under replicated blocks: 408
+Blocks with corrupt replicas: 0
+Missing blocks: 0
+Missing blocks (with replication factor 1): 0
+
+-------------------------------------------------
+Live datanodes (2):
+
+Name: 172.31.25.16:50010 (ip-172-31-25-16.ec2.internal)
+Hostname: ip-172-31-25-16.ec2.internal
+Decommission Status : Normal
+Configured Capacity: 79400804352 (73.95 GB)
+DFS Used: 254276155 (242.50 MB)
+Non DFS Used: 184483269 (175.94 MB)
+DFS Remaining: 78962044928 (73.54 GB)
+DFS Used%: 0.32%
+DFS Remaining%: 99.45%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Sat Feb 13 00:41:36 UTC 2016
+
+
+Name: 172.31.25.15:50010 (ip-172-31-25-15.ec2.internal)
+Hostname: ip-172-31-25-15.ec2.internal
+Decommission Status : Normal
+Configured Capacity: 79400804352 (73.95 GB)
+DFS Used: 254151685 (242.38 MB)
+Non DFS Used: 184042491 (175.52 MB)
+DFS Remaining: 78962610176 (73.54 GB)
+DFS Used%: 0.32%
+DFS Remaining%: 99.45%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Sat Feb 13 00:41:38 UTC 2016
+
+3d:
+16/02/13 00:42:16 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-24-75.ec2.internal/172.31.24.75:8032
+Total Nodes:2
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+ip-172-31-25-15.ec2.internal:8041	        RUNNING	ip-172-31-25-15.ec2.internal:8042	                           0
+ip-172-31-25-16.ec2.internal:8041	        RUNNING	ip-172-31-25-16.ec2.internal:8042	                           0
+
