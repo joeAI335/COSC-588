@@ -1,0 +1,117 @@
+step1:
+HADOOP: Counters: 50
+HADOOP: 	File System Counters
+HADOOP: 		FILE: Number of bytes read=434892
+HADOOP: 		FILE: Number of bytes written=4235487
+HADOOP: 		FILE: Number of read operations=0
+HADOOP: 		FILE: Number of large read operations=0
+HADOOP: 		FILE: Number of write operations=0
+HADOOP: 		HDFS: Number of bytes read=3116211
+HADOOP: 		HDFS: Number of bytes written=248147
+HADOOP: 		HDFS: Number of read operations=69
+HADOOP: 		HDFS: Number of large read operations=0
+HADOOP: 		HDFS: Number of write operations=14
+HADOOP: 	Job Counters 
+HADOOP: 		Launched map tasks=16
+HADOOP: 		Launched reduce tasks=7
+HADOOP: 		Data-local map tasks=8
+HADOOP: 		Rack-local map tasks=8
+HADOOP: 		Total time spent by all maps in occupied slots (ms)=11922795
+HADOOP: 		Total time spent by all reduces in occupied slots (ms)=6313770
+HADOOP: 		Total time spent by all map tasks (ms)=264951
+HADOOP: 		Total time spent by all reduce tasks (ms)=70153
+HADOOP: 		Total vcore-seconds taken by all map tasks=264951
+HADOOP: 		Total vcore-seconds taken by all reduce tasks=70153
+HADOOP: 		Total megabyte-seconds taken by all map tasks=381529440
+HADOOP: 		Total megabyte-seconds taken by all reduce tasks=202040640
+HADOOP: 	Map-Reduce Framework
+HADOOP: 		Map input records=54544
+HADOOP: 		Map output records=462169
+HADOOP: 		Map output bytes=4341893
+HADOOP: 		Map output materialized bytes=868454
+HADOOP: 		Input split bytes=2832
+HADOOP: 		Combine input records=0
+HADOOP: 		Combine output records=0
+HADOOP: 		Reduce input groups=18959
+HADOOP: 		Reduce shuffle bytes=868454
+HADOOP: 		Reduce input records=462169
+HADOOP: 		Reduce output records=18959
+HADOOP: 		Spilled Records=924338
+HADOOP: 		Shuffled Maps =112
+HADOOP: 		Failed Shuffles=0
+HADOOP: 		Merged Map outputs=112
+HADOOP: 		GC time elapsed (ms)=3168
+HADOOP: 		CPU time spent (ms)=53290
+HADOOP: 		Physical memory (bytes) snapshot=8361279488
+HADOOP: 		Virtual memory (bytes) snapshot=55972024320
+HADOOP: 		Total committed heap usage (bytes)=10112466944
+HADOOP: 	Shuffle Errors
+HADOOP: 		BAD_ID=0
+HADOOP: 		CONNECTION=0
+HADOOP: 		IO_ERROR=0
+HADOOP: 		WRONG_LENGTH=0
+HADOOP: 		WRONG_MAP=0
+HADOOP: 		WRONG_REDUCE=0
+HADOOP: 	File Input Format Counters 
+HADOOP: 		Bytes Read=3113379
+HADOOP: 	File Output Format Counters 
+HADOOP: 		Bytes Written=248147
+
+step2:
+HADOOP: Counters: 49
+HADOOP: 	File System Counters
+HADOOP: 		FILE: Number of bytes read=198554
+HADOOP: 		FILE: Number of bytes written=3970530
+HADOOP: 		FILE: Number of read operations=0
+HADOOP: 		FILE: Number of large read operations=0
+HADOOP: 		FILE: Number of write operations=0
+HADOOP: 		HDFS: Number of bytes read=422658
+HADOOP: 		HDFS: Number of bytes written=216
+HADOOP: 		HDFS: Number of read operations=84
+HADOOP: 		HDFS: Number of large read operations=0
+HADOOP: 		HDFS: Number of write operations=14
+HADOOP: 	Job Counters 
+HADOOP: 		Launched map tasks=21
+HADOOP: 		Launched reduce tasks=7
+HADOOP: 		Data-local map tasks=21
+HADOOP: 		Total time spent by all maps in occupied slots (ms)=15200730
+HADOOP: 		Total time spent by all reduces in occupied slots (ms)=4802130
+HADOOP: 		Total time spent by all map tasks (ms)=337794
+HADOOP: 		Total time spent by all reduce tasks (ms)=53357
+HADOOP: 		Total vcore-seconds taken by all map tasks=337794
+HADOOP: 		Total vcore-seconds taken by all reduce tasks=53357
+HADOOP: 		Total megabyte-seconds taken by all map tasks=486423360
+HADOOP: 		Total megabyte-seconds taken by all reduce tasks=153668160
+HADOOP: 	Map-Reduce Framework
+HADOOP: 		Map input records=18959
+HADOOP: 		Map output records=18959
+HADOOP: 		Map output bytes=456696
+HADOOP: 		Map output materialized bytes=202379
+HADOOP: 		Input split bytes=3906
+HADOOP: 		Combine input records=0
+HADOOP: 		Combine output records=0
+HADOOP: 		Reduce input groups=1
+HADOOP: 		Reduce shuffle bytes=202379
+HADOOP: 		Reduce input records=18959
+HADOOP: 		Reduce output records=10
+HADOOP: 		Spilled Records=37918
+HADOOP: 		Shuffled Maps =147
+HADOOP: 		Failed Shuffles=0
+HADOOP: 		Merged Map outputs=147
+HADOOP: 		GC time elapsed (ms)=4433
+HADOOP: 		CPU time spent (ms)=33800
+HADOOP: 		Physical memory (bytes) snapshot=10345578496
+HADOOP: 		Virtual memory (bytes) snapshot=66213937152
+HADOOP: 		Total committed heap usage (bytes)=12533104640
+HADOOP: 	Shuffle Errors
+HADOOP: 		BAD_ID=0
+HADOOP: 		CONNECTION=0
+HADOOP: 		IO_ERROR=0
+HADOOP: 		WRONG_LENGTH=0
+HADOOP: 		WRONG_MAP=0
+HADOOP: 		WRONG_REDUCE=0
+HADOOP: 	File Input Format Counters 
+HADOOP: 		Bytes Read=418752
+HADOOP: 	File Output Format Counters 
+HADOOP: 		Bytes Written=216
+HADOOP: Output directory: hdfs:///user/hadoop/tmp/mrjob/wordcount_top10.hadoop.20160225.232420.576768/output
