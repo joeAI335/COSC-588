@@ -4,22 +4,16 @@
 
 -- Clear the output directory location
 --
-rmf count_by_date
+rmf forensicswiki_count_by_date
 
 --
 -- Map locally defined functions to the Java functions in the piggybank
 --
 DEFINE EXTRACT       org.apache.pig.piggybank.evaluation.string.EXTRACT();
 
---
--- Uncomment the data source you wish to use:
-
 -- This URL uses just one day
-aw_logs = load 's3://gu-anly502/ps03/forensicswiki.2012-01.unzipped/access.log.2012-01-01' as (line:chararray);
+raw_logs = load 's3://gu-anly502/ps03/forensicswiki.2012-01.unzipped/access.log.2012-01-01' as (line:chararray);
 --
--- This URL uses another day:
---raw_logs = load 's3://gu-anly502/ps03/forensicswiki/access.log.2012-12-31.gz' as (line:chararray);
-
 -- This URL reads a month:
 -- raw_logs = load 's3://gu-anly502/ps03/forensicswiki.2012-01.unzipped/access.log.2012-01-??' as (line:chararray);
 --
@@ -42,19 +36,21 @@ logs_base =
      );
 
 -- YOUR CODE GOES HERE
--- YOUR CODE SHOULD PUT THE RESULTS IN date_counts_sorted
+-- PUT YOUR RESULTS IN output
 logs  = FOREACH logs_base GENERATE ToDate(SUBSTRING(datetime_str,0,11),'dd/MMM/yyyy') AS date, host, url, size;
 logs2 = FOREACH logs GENERATE SUBSTRING(ToString(date),0,10) AS date, host, url, size;
 
 
 by_date = GROUP logs2 BY (date);
-date_counts = FOREACH by_date GENERATE group AS date, COUNT(logs2);      
+date_counts = FOREACH by_date GENERATE group AS date, COUNT(logs2);  
+date_counts = FILTER date_counts BY ($0 matches '2012.*');    
+
 date_counts_sorted = ORDER date_counts BY $1 DESC;
 
-store date_counts_sorted INTO 'count_by_date' USING PigStorage();
+store date_counts_sorted INTO 'forensicswiki_page_top20' USING PigStorage();
 
 
 -- Get the results
 --
-fs -getmerge count_by_date forensicswiki_count_by_date.txt
+fs -getmerge forensicswiki_page_top20 forensicswiki_page_top20.txt
 
