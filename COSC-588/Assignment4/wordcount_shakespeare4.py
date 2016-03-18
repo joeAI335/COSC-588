@@ -13,6 +13,7 @@
 import sys
 from operator import add
 from pyspark import SparkContext
+import re
 
 def isokay(ch):
     return ch in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 '
@@ -35,17 +36,39 @@ if __name__ == "__main__":
     ## YOUR CODE GOES HERE
     ## PUT YOUR RESULTS IN top40counts
 
+    # counts = lines.flatMap(lambda line: line.split()) \
+    #          .map(lambda word: (word, 1)) \
+    #          .reduceByKey(lambda a, b: a + b)
+
+    # counts = lines.flatMap(lambda line: line.lower().split()) \
+    #          # .filter(lambda word: isokay(word)) \
+    #          .map(lambda word: (word, 1)) \
+    #          .reduceByKey(lambda a, b: a + b) \
+    #          .sortByKey(True)
     counts = lines.flatMap(lambda line: line.lower().split()) \
-             .filter(lambda word: isokay(word) == True) \
+             .map(lambda word: filter(unicode.isalpha,word)) \
              .map(lambda word: (word, 1)) \
              .reduceByKey(lambda a, b: a + b) \
              .sortByKey(True)
+    # lines = " ".join(c for c in lines if isokay(c))
+    # counts = lines.flatMap(lambda line: line.lower().split()) \
+    #          .join(lambda word: for e in string if e.isalnum())
+    #          .map(lambda word: (word, 1)) \
+    #          .reduceByKey(lambda a, b: a + b) \
+    #          .sortByKey(True)
+
+    # counts = lines.flatMap(lambda line: line.lower().split()) \
+    #          .map(lambda word: (word, 1)) \
+    #          .reduceByKey(lambda a, b: a + b) \
+    #          .sortByKey(True)
 
     top40counts = counts.takeOrdered(40, key=lambda x: -x[1])
 
     with open("wordcount_shakespeare4.txt","w") as fout:
         for (word, count) in top40counts:
+        # for word in lines:
             fout.write("{}\t{}\n".format(word,count))
+            # fout.write(lines)
     
     ## 
     ## Terminate the Spark job

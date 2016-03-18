@@ -48,8 +48,9 @@ logs2 = FOREACH logs GENERATE SUBSTRING(ToString(date),0,10) AS date, host, url,
 
 
 by_date = GROUP logs2 BY (date);
-date_counts = FOREACH by_date GENERATE group AS date, COUNT(logs2);      
-date_counts_sorted = ORDER date_counts BY $1 DESC;
+date_counts = FOREACH by_date GENERATE group AS date, COUNT(logs2);   
+-- date_counts = FILTER date_counts BY $0 MATCHES '^[2].*';   
+date_counts_sorted = ORDER date_counts BY $0 ASC;
 
 store date_counts_sorted INTO 'count_by_date' USING PigStorage();
 
