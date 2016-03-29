@@ -14,6 +14,8 @@ import sys
 from operator import add
 from pyspark import SparkContext
 import re
+import matplotlib.pyplot as plt
+
 if __name__ == "__main__":
     
     ##
@@ -33,55 +35,43 @@ if __name__ == "__main__":
     ## YOUR CODE GOES HERE
     ## PUT YOUR RESULTS IN counts
 
-    # def map(line):
-    #     tokens = re.split("[\\s]+", line.strip())
-    #     tokens = re.split("[\\-]+", tokens[0].strip())
-    #     monthToCnt = {tokens[1]:1}
-    #     return monthToCnt
-
-    # def reduce(monthToCnt1, monthToCnt2):
-    #     monthToCnt = {}
-    #     for month in monthToCnt1:
-    #         if month not in monthToCnt:
-    #             monthToCnt[month] = 0
-    #         monthToCnt[month] = monthToCnt[month] + monthToCnt1[month]
-
-    #     for month in monthToCnt2:
-    #         if month not in monthToCnt:
-    #             monthToCnt[month] = 0
-    #         monthToCnt[month] = monthToCnt[month] + monthToCnt2[month]
-    #     return monthToCnt
-    # def mapper(line):
-    #     line = line[0:7]
-    #     return line, 1
-    # def reducer(line, key):
-    #     return (line, sum(key))
-
+    
     # monthToCnt = lines.map(lambda line: line.split('\t')).map(lambda list : list[2]).map(map).reduce(reduce)
-    counts = lines.flatMap(lambda line: line.split('\t'))\
-             .filter(lambda word: word.startswith("20")) \
-             .map(lambda word: (word[0:7], 1)) \
-             .reduceByKey(lambda a, b: a + b) \
-             .sortBy(lambda x: x[0])
+    date = lines.map(lambda line: line.split('\t')[2])
     
-    # for month in monthToCnt:
-    #     print month + "\t" + str(monthToCnt[month]) + "\n" 
     
-
-             # .flatMap(lambda line: line.split(' ')) \
-             # .flatMap(lambda line: line.split('-')) \
-
-    # counts = counts[0] + counts[1]
-
-    # counts = counts.map(lambda word: (word[0:7], 1)) \
-    #          .reduceByKey(lambda a, b: a + b) 
-
-    #top40counts = counts.takeOrdered(40, key=lambda x: -x[1]) #counts.takeOrdered(40, key=lambda x: -x[1])
-    counts = counts.collect()
+    month = date.map(lambda word: (word[0:7], 1)).reduceByKey(lambda a, b: a + b) 
+                
+             
+    sorted_monthCount = month.sortBy(lambda x: x[0]).collect()
+    
+    month_length = []
+    i = 1
     with open("wikipedia_by_month.txt","w") as fout:
-        for (date, count) in top40counts:
+        for (date, count) in sorted_monthCount:
             fout.write("{}\t{}\n".format(date,count))
+            #count how many records of months in result set
+            month_length.append(i)
+            #disperse the x axis 
+            i += 100000
     
+
+    #temporary variable to store counts and months
+    counts = []
+    months = []
+    
+
+    for (date, count) in sorted_monthCount:
+        counts.append(count)
+        months.append(date)
+
+    #draw a diagram where x axis is the amount of month
+    #and y axis is the counts
+    plt.plot(month_length, counts)
+    #replace corresponding month with x axis
+    plt.xticks(month_length, months, rotation='vertical')
+    #save to a pdf file
+    plt.savefig("Wikipedia_by_month.pdf")
     ## 
     ## Terminate the Spark job
     ##

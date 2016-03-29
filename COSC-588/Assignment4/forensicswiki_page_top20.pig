@@ -40,15 +40,16 @@ logs_base =
 -- PUT YOUR RESULTS IN output
 logs  = FOREACH logs_base GENERATE ToDate(SUBSTRING(datetime_str,0,11),'dd/MMM/yyyy') AS date, host, url, size;
 logs2 = FOREACH logs GENERATE SUBSTRING(ToString(date),0,10) AS date, host, url, size;
-logs3 = FOREACH logs2 GENERATE REGEX_EXTRACT(date, '^2012.*', 1) AS date, host, url, size;
--- logs = FOREACH logs_base GENERATE group AS url, 
+-- Filter the records of year 2012 only
+logs3 = FILTER logs2 BY (date matches '2012.*');
+-- Extract specific wikipage 
 logs4 = FOREACH logs3 GENERATE REGEX_EXTRACT_ALL(url, '(index.php\\?title=|/wiki/)([^ &]*)') AS date, host, url, size;
--- logs4 = FOREACH logs3 GENERATE REGEX_EXTRACT_ALL(ToString(date), '^2012.*') AS date, host, url, size;
+
 
 by_date = GROUP logs4 BY (url);
 -- by_date = FILTER by_date BY ($0 matches '^2012.*');
 date_counts = FOREACH by_date GENERATE group AS url, COUNT(logs4);  
--- date_counts = FILTER date_counts BY ($1 matches '2012.*');    
+   
 
 date_counts_sorted = ORDER date_counts BY $1 DESC;
 

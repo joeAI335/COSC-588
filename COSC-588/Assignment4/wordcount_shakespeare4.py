@@ -18,6 +18,10 @@ import re
 def isokay(ch):
     return ch in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 '
 
+
+def clean(line):
+    return "".join(filter(isokay, line))
+
 if __name__ == "__main__":
     
     ##
@@ -40,27 +44,14 @@ if __name__ == "__main__":
     #          .map(lambda word: (word, 1)) \
     #          .reduceByKey(lambda a, b: a + b)
 
-    # counts = lines.flatMap(lambda line: line.lower().split()) \
-    #          # .filter(lambda word: isokay(word)) \
-    #          .map(lambda word: (word, 1)) \
-    #          .reduceByKey(lambda a, b: a + b) \
-    #          .sortByKey(True)
+    #Remove characters that are not numbers, digits or spaces
+    lines = lines.map(lambda line: clean(line))
+
     counts = lines.flatMap(lambda line: line.lower().split()) \
-             .map(lambda word: filter(unicode.isalpha,word)) \
              .map(lambda word: (word, 1)) \
              .reduceByKey(lambda a, b: a + b) \
              .sortByKey(True)
-    # lines = " ".join(c for c in lines if isokay(c))
-    # counts = lines.flatMap(lambda line: line.lower().split()) \
-    #          .join(lambda word: for e in string if e.isalnum())
-    #          .map(lambda word: (word, 1)) \
-    #          .reduceByKey(lambda a, b: a + b) \
-    #          .sortByKey(True)
-
-    # counts = lines.flatMap(lambda line: line.lower().split()) \
-    #          .map(lambda word: (word, 1)) \
-    #          .reduceByKey(lambda a, b: a + b) \
-    #          .sortByKey(True)
+   
 
     top40counts = counts.takeOrdered(40, key=lambda x: -x[1])
 
@@ -68,8 +59,7 @@ if __name__ == "__main__":
         for (word, count) in top40counts:
         # for word in lines:
             fout.write("{}\t{}\n".format(word,count))
-            # fout.write(lines)
-    
+            
     ## 
     ## Terminate the Spark job
     ##
